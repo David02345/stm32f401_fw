@@ -21,7 +21,7 @@ void apMain(void)
   pre_time = millis();
   while(1)
   {
-    if(millis() - pre_time >= 500)
+    if(millis() - pre_time >= 1500)
     {
       pre_time = millis();
       ledToggle(_DEF_LED1);
